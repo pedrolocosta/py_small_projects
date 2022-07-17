@@ -1,0 +1,19 @@
+     O arquivo CSV contém dados de 2011 a 2021, com os seguintes registros:
+
+Timestamp - “Carimbos”de data/hora (timestamp) que estão em hora Unix. (Se estiver faltando um carimbo de data/hora ou se houver saltos, isso 
+pode ser porque a Exchange estava inativa, a Exchange não existia ou algum outro erro técnico ocorreu na coleta dos dados.
+
+Open - valor do bitcoin (BTC) no momento de abertura do dia
+
+High - maior valor do BTC no dia
+
+Low - menor valor do BTC no dia
+
+Close - valor do BTC no momento do fechamento do dia
+
+Volume (BTC) - volume (quantidade) de BTC negociado no dia
+
+Volume (Currency) - volume (quantidade) de dólar negociado no dia
+
+Weighted Price - valor da cotação do BTC no dia
+

@@ -1,0 +1,15 @@
+
+* tempo_cadastro_cliente
+Tempo que o cliente está cadastrado. O número de meses foi convertidopara número de anos.
+
+* numero_medio_cliques_por_sessao
+Número médio decliques(ou toques) em cada sessão.
+
+* tempo_total_logado_app
+Tempo total logado na app em minutos.
+
+* tempo_total_logado_website
+Tempo total logado no web site em minutos.
+
+* valor_total_gasto
+Valor totalgasto pelo cliente em um mês em R$.
