@@ -1,6 +1,10 @@
 # Very large files
 dataset_bitcoin.csv
 
+# Logs
+.ipynb_checkpoints
+
+
 # Prerequisites
 *.d
 
