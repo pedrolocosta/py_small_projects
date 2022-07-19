@@ -2,7 +2,10 @@
 dataset_bitcoin.csv
 
 # Logs
+
+**/*.ipynb_checkpoints/
 **/.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 .ipynb_checkpoints
 
 # Prerequisites
