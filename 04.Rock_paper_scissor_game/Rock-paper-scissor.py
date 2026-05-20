@@ -18,5 +18,5 @@ def check_win(player, computer):
 
 check_win("rock", "paper")
 
-https://www.youtube.com/watch?v=eWRfhZUzrAc
-at 34:30 I stopped the study.
+#https://www.youtube.com/watch?v=eWRfhZUzrAc
+#at 34:30 I stopped the study.
