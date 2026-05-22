@@ -17,7 +17,7 @@ def check_win(player, computer):
         else:
             return "Paper covers rocks! You lose."
     elif player == "Paper":
-        if computer =="rock":
+        if computer == "rock":
             return "Paper cover rock! You win!"
         else:
             return "Scissors cuts paper! You lose."
@@ -30,6 +30,3 @@ def check_win(player, computer):
 choices = get_choices()
 result = check_win(choices["player"], choices["computer"])
 print(result)
-
-#https://www.youtube.com/watch?v=eWRfhZUzrAc
-#at 44:30 I stopped the study.
