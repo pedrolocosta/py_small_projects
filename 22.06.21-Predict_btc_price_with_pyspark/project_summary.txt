@@ -1,0 +1,14 @@
+     Neste mini-projeto o objetivo será construir um modelo de Machine Learning capaz de prever a cotação de criptomoedas.
+Usaremos dados sobre o Bitcoin que é a criptomoeda mais antiga e conhecida, lançada pela primeira vez como código aberto
+em 2009 pelo anônimo Satoshi Nakamoto. 
+
+     O  Bitcoin  serve  como  um  meio  descentralizado  de  troca   digital,  com  transações verificadas  e  registradas 
+em  um  livro  público  distribuído  (aBlockchain)  sem  a  necessidade  de uma autoridade de manutenção de registros ou 
+intermediário central. Os  blocos  de  transação  contêm  um  hash  criptográfico  SHA-256  de  blocos  de  transação 
+anteriores e, portanto, são "encadeados" juntos, servindo como um registro imutável de todas as transações que já ocorreram. 
+
+     Usaremos dados históricos de cotação do Bitcoin de 2011a 2021. Como o ano de 2022 foi bem atípico para o Bitcoin, optamos 
+por não usar dados desse ano. O dataset fornecido e os dados foram extraídos do site: https://bitcoincharts.com/charts/
+
+     O arquivo CSV contém dados de 2011 a 2021, com registros OHLC (Open, High, Low, Close) da cotação do Bitcoin, Volume em BTC
+e Volume na moeda (nesse caso o dólar). A última coluna indica o preço ponderado do Bitcoin. Os “carimbos”de data/hora (timestamp) estão em hora Unix. Timestamps sem nenhuma negociação ou atividade têm seus campos de dados preenchidos com NaNs. Se estiver faltando um carimbo de data/hora ou se houver saltos, isso pode ser porque a Exchange estava inativa, a Exchange não    existia    ou    algum    outro    erro    técnicoocorreu na    coleta    dos    dados.Com  base  em  dados  históricos  de  cotação  do  Bitcoin,  nosso  modelo  deve  ser  capaz  de prever a cotação do Bitcoin em tempo real a partir de novos dados de entrada.Este projeto pode ser  estendido  para  qualquer  outro  instrumento  financeiro  que  tenha  dados  de  cotação  diária disponível
